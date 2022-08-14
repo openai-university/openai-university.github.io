@@ -1,0 +1,75 @@
+####################
+# hugo
+####################
+baseURL = "https://openai.university"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+title = "OpenAI University"
+summaryLength = 10
+RelativeURLs = false
+CanonifyURLs = true
+enableRobotsTXT = true
+enableEmoji = true
+paginate = 10
+enableGitInfo = true
+pygmentsCodefences = true
+pygmentsUseClasses = true
+disableHugoGeneratorInject = true
+assetDir = "static/assets"
+
+[module]
+[module.hugoVersion]
+extended = true
+min = "0.94.2"
+timeout = "300s"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+  [markup.goldmark.renderer]
+    hardWraps = true
+    unsafe    = true
+    xhtml     = true
+
+[taxonomies]
+  category = 'category'
+  tag = 'tags'
+
+[outputs]
+  home          = ["html", "json"]
+  section          = ["html"]
+
+####################
+# site params
+####################
+[params]
+  author = "John Doe"
+  site_name = "OpenAI University"
+  description = "website description"
+  locale = "en-US"
+  type = "website"
+  favicon = "favicon.png"
+
+  contact_url = "mailto:webmaster@website.com"
+  twitter = "https://twitter.com/OpenaiU"
+  youtube = "https://www.youtube.com/channel/UC-zakigu6Vkr2ssJILFQ-mQ"
+  github = "https://github.com/openai-university"
+
+####################
+# navbar menu
+####################
+[[menu.main]]
+name = "About"
+url = "/about"
+
+[[menu.main]]
+name = "News"
+url = "/category/news"
+
+[[menu.main]]
+name = "Podcast"
+url = "/category/podcast"
+
+[[menu.main]]
+name = "Workshop"
+url = "/category/workshop"
