@@ -73,3 +73,13 @@ url = "/category/podcast"
 [[menu.main]]
 name = "Workshop"
 url = "/category/workshop"
+
+[[menu.main]]
+name = "Events"
+url = "/events"
+weight = "5"
+
+[[menu.main]]
+name = "Register"
+url = "/register"
+weight = "6"
