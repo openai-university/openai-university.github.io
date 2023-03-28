@@ -64,7 +64,7 @@ url = "/about"
 weight = "1"
 
 [[menu.main]]
-name = "News"
+name = "Blogs"
 url = "/category/news"
 weight = "2"
 
@@ -74,7 +74,7 @@ url = "/category/podcast"
 weight = "3"
 
 [[menu.main]]
-name = "Workshop"
+name = "Projects"
 url = "/category/workshop"
 weight = "4"
 
@@ -84,6 +84,6 @@ url = "/events"
 weight = "5"
 
 [[menu.main]]
-name = "Register"
+name = "Volunteer"
 url = "/register"
 weight = "6"
