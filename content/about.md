@@ -10,16 +10,8 @@ thumbnail: ""
 slug: "about"
 ---
 
-Elit molestias non ex ut iure, nemo? Totam ea non nam neque corporis! Explicabo
-numquam!
+OpenAI University is a community based non-profit organization kindly register yourself as a volunteer 
+by donating to donation fund which will be used for operational, library and project 
+infrastruture and eligible scholarships for keen student learners.
 
-Dolor reprehenderit quidem a elit sequi? Ipsam quaerat nostrum vitae inventore
-explicabo! Inventore dolores molestiae reprehenderit dolorum repellat? Fugiat
-placeat iste laborum labore nostrum. Consectetur nobis esse illum beatae illum
-Culpa porro commodi tempore molestias aliquid? Ut libero dignissimos
-consequuntur doloremque sit! Voluptatem impedit incidunt doloribus rem facere
-odio, alias
-
-Dolor esse sint voluptatum sequi harum? Voluptatum quaerat velit deserunt
-quidem minima adipisci Veniam nostrum voluptatibus placeat in laboriosam. Cum
-quod ducimus quos asperiores ut.
+We kindly request you to make a donation and pledge your commitment and support to learn network and grow.
