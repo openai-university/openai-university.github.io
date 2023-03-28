@@ -61,18 +61,22 @@ timeout = "300s"
 [[menu.main]]
 name = "About"
 url = "/about"
+weight = "1"
 
 [[menu.main]]
 name = "News"
 url = "/category/news"
+weight = "2"
 
 [[menu.main]]
 name = "Podcast"
 url = "/category/podcast"
+weight = "3"
 
 [[menu.main]]
 name = "Workshop"
 url = "/category/workshop"
+weight = "4"
 
 [[menu.main]]
 name = "Events"
