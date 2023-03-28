@@ -16,7 +16,7 @@ tags:
 category:
   - Register
 donate_text: "OpenAI University Donations"
-billing_email: "billing@aidcim.org"
+billing_email: "openai.university@gmail.com"
 ---
 
 
