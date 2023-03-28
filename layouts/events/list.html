@@ -1,0 +1,12 @@
+{{- define "main" }}
+{{ partial "table_style.html" . }}
+<div id="content" class="mb-[100px] mt-10">
+  <!-- BEGIN Article -->
+  <div class="wrapper">
+    <h2 class="mb-2.5 text-1xl font-medium leading-8">List of Current Events</h2>
+    {{ partial "events-current.html" . }}
+    <h2 class="mb-2.5 text-1xl font-medium leading-8">List of Past Events</h2>
+    {{ partial "events-past.html" . }}
+  </div>
+  <!-- EOL Article -->
+  {{ end -}}
