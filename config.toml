@@ -69,7 +69,7 @@ url = "/category/news"
 weight = "2"
 
 [[menu.main]]
-name = "Research / Podcasts"
+name = "Research-Podcasts"
 url = "/category/podcast"
 weight = "3"
 
