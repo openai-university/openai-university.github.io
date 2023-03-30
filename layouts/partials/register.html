@@ -1,4 +1,4 @@
-<script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
 <style>
     .donate_form {
         max-width: 460px;
@@ -15,7 +15,7 @@
       .donate_form .tabs .btn_styles {
         width: 50%;
         float: left;
-        border: 1px solid #7e7549;
+        border: 1px solid #ececec;
         height: 35px;
         line-height: 35px;
         font-size: 18px;
@@ -23,11 +23,11 @@
         text-align: center;
       }
       .donate_form .tabs .btn_styles:not(.active) {
-        color: #7e7549;
+        color: #e5e5e5;
       }
       .donate_form .tabs .btn_styles.active {
-        background-color: #7e7549;
-        color: #2a2b2f;
+        background-color: #003087;
+        color: #FFF;
       }
       .donate_form .donat-box {
         width: 33.3% !important;
@@ -40,7 +40,7 @@
         display: inline-block;
         height: 12px;
         width: 12px;
-        border: 1px solid #7e7549;
+        border: 1px solid #AAA;
         border-radius: 2px;
         margin-right: 5px;
       }
@@ -48,7 +48,7 @@
         display: none;
       }
       .donate_form .radio input:checked ~ .checkmark {
-        background-color: #7e7549;
+        background-color: #003087;
       }
       .donate_form .input {
         position: relative;
@@ -65,8 +65,9 @@
         line-height: 50px;
         width: 100%;
         padding: 0 120px 0 20px;
-        color: #7e7549;
+        color: #555;
         font-size: 20px;
+        border: 1px solid #ccc;
       }
       .donate_form .input input[type=number]::-webkit-inner-spin-button, .donate_form .input input[type=number]::-webkit-outer-spin-button {
         -webkit-appearance: none;
@@ -85,10 +86,12 @@
         padding: 0 55px 0 20px;
       }
       .donate_form .description {
-        background-color: #dce0ba;
+        background-color: #33AFFF;
         padding: 25px;
         text-align: center;
-        border: 1px solid #7e754a;
+        border: 1px solid #aaa;
+        color: #f7f7f7;
+        
       }
       .donate_form .body {
         border: 1px solid #7e754a;
@@ -98,9 +101,10 @@
       .donate_form .body .info {
         margin-bottom: 20px;
         color: #9a9065;
+        color: #686767;
       }
       .donate_form .body .donate_buttons .btn_styles {
-        background-color: #7e754a;
+        background-color: #003087;
         height: 50px;
         line-height: 50px;
         color: #fff;
@@ -116,7 +120,7 @@
       .donate_form .goal {
         font-size: 21px;
         line-height: 25.2px;
-        color: #7e7549;
+        color: #FFF;
         margin-bottom: 20px;
       }
       .donate_form .subgoal {
@@ -128,12 +132,18 @@
       .donate_form .thank-you {
         font-size: 43px;
         line-height: 51.6px;
-        color: #7e7549;
+        color: #FFF;
       }
 </style>
 
 <script>
     jQuery(document).ready(function ($) {
+
+        $('.amount_cls').click(function() {
+            value = $(this).html()
+            const dollar = value.split("$");
+            $(".number_field").val(parseInt(dollar[1]))
+        });
         $('.tabs .btn_styles').click(function () {
           if (!$(this).hasClass('active')) {
             let active, parent, tab;
@@ -180,13 +190,13 @@
 
         <div class="row">
             <div class="col-xs-12 tabs">
-                <a href="" class="btn_styles sum-10 donat-box">
+                <a href="" class="amount_cls btn_styles sum-10 donat-box">
                     $10
                 </a>
-                <a href="" class="btn_styles sum-20 donat-box">
+                <a href="" class="amount_cls btn_styles sum-20 donat-box">
                     $20
                 </a>
-                <a href="" class="btn_styles sum-30 donat-box active">
+                <a href="" class="amount_cls btn_styles sum-30 donat-box active">
                     $30
                 </a>
             </div>
@@ -202,7 +212,7 @@
                 <div class="body">
 
                     <div class="input">
-                        <input type="number" name="amount" value="50">
+                        <input type="number" class="number_field" name="amount" value="50">
                         <div class="addition">USD</div>
                     </div>
                     <div class="info">{{ .Params.donate_text }}</div>
@@ -234,13 +244,13 @@
 
         <div class="row">
             <div class="col-xs-12 tabs">
-                <a href="" class="btn_styles sum-10 donat-box">
+                <a href="" class="amount_cls btn_styles sum-10 donat-box">
                     $10
                 </a>
-                <a href="" class="btn_styles sum-20 donat-box">
+                <a href="" class="amount_cls btn_styles sum-20 donat-box">
                     $20
                 </a>
-                <a href="" class="btn_styles sum-20 donat-box active">
+                <a href="" class="amount_cls btn_styles sum-20 donat-box active">
                     $30
                 </a>
             </div>
@@ -256,7 +266,7 @@
                 <div class="body">
 
                     <div class="input">
-                        <input type="number" name="a3" value="50">
+                        <input type="number" class="number_field" name="a3" value="50">
                         <div class="addition">USD / MONTH</div>
                     </div>
                     <div class="info">{{ .Params.donate_text }}</div>

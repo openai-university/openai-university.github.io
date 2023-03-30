@@ -7,7 +7,7 @@
         <div class="cell">
           Serial No
         </div>
-        <div class="cell">
+        <div class="cell" style="width: 30%">
           Event Description
         </div>
         <div class="cell">
@@ -16,8 +16,8 @@
         <div class="cell">
           Cost
         </div>
-        <div class="cell">
-            Remarks
+        <div class="cell" style="width: 30%">
+            Schedule
         </div>
       </div>
       {{ $context := . }}
@@ -38,7 +38,7 @@
             {{ .Params.cost }}
         </div>
         <div class="cell">
-            {{ .Params.remarks }}
+            {{ .Params.schedule }}
           </div>
       </div>
       {{ end }}
