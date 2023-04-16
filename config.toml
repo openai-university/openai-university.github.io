@@ -70,7 +70,8 @@ weight = "2"
 
 [[menu.main]]
 name = "Research-Podcasts"
-url = "/category/podcast"
+# url = "/category/podcast"
+url = "/podcast"
 weight = "3"
 
 [[menu.main]]
