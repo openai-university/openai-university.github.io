@@ -51,7 +51,7 @@ timeout = "300s"
   favicon = "favicon.png"
 
   contact_url = "mailto:webmaster@website.com"
-  twitter = "https://twitter.com/OpenaiU"
+  twitter = "https://twitter.com/RationalAiUni"
   youtube = "https://www.youtube.com/channel/UC-zakigu6Vkr2ssJILFQ-mQ"
   github = "https://github.com/openai-university"
 
@@ -76,7 +76,7 @@ weight = "3"
 
 [[menu.main]]
 name = "Projects"
-url = "/category/workshop"
+url = "/project"
 weight = "4"
 
 [[menu.main]]
