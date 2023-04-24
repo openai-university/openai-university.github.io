@@ -52,17 +52,17 @@ article {
   height:1000px;
   position:relative;
 }
-ul {
+.table_ul {
   display:flex;
   top:0px;
   z-index:10;
   padding-bottom:14px;
 }
-li {
+.table_ul li {
   list-style:none;
   flex:1;
 }
-li:last-child {
+.table_ul li:last-child {
   border-right:1px solid #DDD;
 }
 button {
@@ -77,7 +77,7 @@ button {
   height:60px;
   color:#999
 }
-li.active button {
+.table_ul li.active button {
   background:#F5F5F5;
   color:#000;
 }
@@ -117,7 +117,7 @@ td.default {
 }
 
 @media (min-width: 640px) {
-  ul {
+  .table_ul {
     display:none;
   }
   td,th {
@@ -136,7 +136,7 @@ td.default {
 
 <article>
 
-    <ul>
+    <ul class="table_ul">
       <li class="bg-purple">
         <button>Volunteership Tier</button>
       </li>
