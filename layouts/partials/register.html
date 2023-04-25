@@ -140,9 +140,10 @@
     jQuery(document).ready(function ($) {
 
         $('.amount_cls').click(function() {
-            value = $(this).html()
-            const dollar = value.split("$");
-            $(".number_field").val(parseInt(dollar[1]))
+            value = $(this).attr('price');
+            //const dollar = value.split("$");
+            // $(".number_field").val(parseInt(dollar[1]))
+            $(".number_field").val(value)
         });
         $('.tabs .btn_styles').click(function () {
           if (!$(this).hasClass('active')) {
@@ -190,15 +191,15 @@
 
         <div class="row">
             <div class="col-xs-12 tabs">
-                <a href="" class="amount_cls btn_styles sum-10 donat-box">
+                <a href="" class="amount_cls btn_styles sum-10 donat-box" price="149">
                   <!-- Awareness: 149$ -->
                   Awareness
                 </a>
-                <a href="" class="amount_cls btn_styles sum-20 donat-box">
+                <a href="" class="amount_cls btn_styles sum-20 donat-box" price="249">
                   <!-- Gold: 249$ -->
                   Committed
                 </a>
-                <a href="" class="amount_cls btn_styles sum-30 donat-box active">
+                <a href="" class="amount_cls btn_styles sum-30 donat-box active" price="449">
                   <!-- Platinum: 449$ -->
                   Intense Focus
                 </a>
@@ -247,15 +248,15 @@
 
         <div class="row">
             <div class="col-xs-12 tabs">
-                <a href="" class="amount_cls btn_styles sum-10 donat-box">
+                <a href="" class="amount_cls btn_styles sum-10 donat-box" price="69">
                     <!-- Silver: 69$ -->
                     Awareness
                 </a>
-                <a href="" class="amount_cls btn_styles sum-20 donat-box">
+                <a href="" class="amount_cls btn_styles sum-20 donat-box" price="99">
                      <!-- Gold: 99$ -->
                      Committed
                 </a>
-                <a href="" class="amount_cls btn_styles sum-20 donat-box active">
+                <a href="" class="amount_cls btn_styles sum-20 donat-box active" price="199">
                     <!-- Platinum: 199$ -->
                     Intense Focus
                 </a>
