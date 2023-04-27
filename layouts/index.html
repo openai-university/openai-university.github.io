@@ -5,7 +5,7 @@
     class="mb-[225px] mt-6 grid grid-cols-1 gap-10 lg:grid-cols-12"
   >
     
-      {{ partial "search.html" }}
+      
       
     <div class="col-span-full p-5 lg:col-span-8 lg:p-2">
       
@@ -16,8 +16,10 @@
     </div>
     <!-- EOL Left Side -->
     <!-- BEGIN RIGHT Side -->
+
+    
     <div class="col-span-full p-5 lg:col-span-4 lg:p-2">
-     
+      {{ partial "search.html" }}
       <!-- BEGIN Section Twitter -->
       {{- if site.Params.twitter }}
         <div class="mb-12">
