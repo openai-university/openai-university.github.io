@@ -11,17 +11,18 @@ $(document).ready(function () {
   $(this).addClass('active');
 });
 
-});
 
 
 // Initialize the media query
-  var mediaQuery = window.matchMedia('(min-width: 640px)');
+var mediaQuery = window.matchMedia('(min-width: 640px)');
   
   // Add a listen event
   mediaQuery.addListener(doSomething);
   
   // Function to do something with the media query
   function doSomething(mediaQuery) {    
+    
+
     if (mediaQuery.matches) {
       $('.sep').attr('colspan',5);
     } else {
@@ -30,7 +31,11 @@ $(document).ready(function () {
   }
   
   // On load
-  doSomething(mediaQuery);   
+  doSomething(mediaQuery); 
+
+});
+
+  
 </script>
 <style>
     /* DIRTY Responsive pricing table CSS */
@@ -137,9 +142,9 @@ td.default {
 <article>
 
     <ul class="table_ul">
-      <li class="bg-purple">
+      <!-- <li class="bg-purple">
         <button>Volunteership Tier</button>
-      </li>
+      </li> -->
       <li class="bg-blue">
         <button>Free</button>
       </li>
@@ -157,7 +162,7 @@ td.default {
     <table>
       <thead>
         <tr>
-          <th class="hide"></th>
+          <th class="">Plan</th>
           <th class="bg-purple">Free</th>
           <th class="bg-blue">Silver</th>
           <th class="bg-blue default">Gold</th>
@@ -167,7 +172,7 @@ td.default {
       <tbody>
         <tr>
           <td></td>
-          <td></td>
+          <td>Free</td>
           <td><span class="txt-top">&dollar;</span><span class="txt-l">7</span></td>
           <td class="default"><span class="txt-top">&dollar;</span><span class="txt-l">15</span></td>
           <td><span class="txt-top">&dollar;</span><span class="txt-l">25</span></td>
@@ -207,14 +212,14 @@ td.default {
           <td>1:1 Menotors (1H - 2 Sessions per month)</td>
           <td><span class="cross">&#10006;</span></td>
           <td><span class="cross">&#10006;</span></td>
-          <td><span class="cross">&#10006;</span></td>
+          <td class="default"><span class="cross">&#10006;</span></td>
           <td><span class="tick">&#10004;</span></td>
         </tr>
         <tr>
           <td>Grant Eligibility</td>
           <td><span class="cross">&#10006;</span></td>
           <td><span class="cross">&#10006;</span></td>
-          <td><span class="cross">&#10006;</span></td>
+          <td class="default"><span class="cross">&#10006;</span></td>
           <td><span class="tick">&#10004;</span></td>
         </tr>
         
