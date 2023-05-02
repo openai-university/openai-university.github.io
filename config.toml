@@ -2,6 +2,7 @@
 # hugo
 ####################
 baseURL = "https://openai.university"
+theme = "simple_old_theme"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 title = "OpenAI University"
