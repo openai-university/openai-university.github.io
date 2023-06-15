@@ -1,5 +1,5 @@
 ---
-title: "Project1-2"
+title: "Another Some Workshop"
 date: 2022-08-09T19:54:27+07:00
 draft: false
 seo_description: ""
@@ -9,11 +9,15 @@ seo_keyword:
 thumbnail: "posts/example.jpg"
 youtube_url: "https://youtu.be/D0UnqGm_miA"
 tags:
-  - Project1
+  - tags3
+  - tags4
 category:
-  - Project
-  - Project1
-slug: "another-some-project"
+  - Workshop
+slug: "another-some-workshop"
+image: "images/about/image-1.jpg"
+goal: "$890"
+raised: "$390"
+type: "causes"
 ---
 
 Adipisicing quae cumque pariatur libero soluta quae sequi? Nobis eum itaque

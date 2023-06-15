@@ -1,5 +1,5 @@
 ---
-title: "Some Workshop"
+title: "Project2-1"
 date: 2022-08-09T19:54:27+07:00
 draft: false
 seo_description: ""
@@ -9,11 +9,15 @@ seo_keyword:
 thumbnail: "posts/example.jpg"
 youtube_url: "https://youtu.be/D0UnqGm_miA"
 tags:
-  - tags1
-  - tags2
+  - Project2
 category:
-  - Workshop
-slug: "some-workshop"
+  - Project
+  - Project2
+slug: "some-project"
+image: "images/about/image-1.jpg"
+goal: "$890"
+raised: "$390"
+type: "causes"
 ---
 
 Elit eveniet atque fugit nulla laboriosam? Vitae voluptatum voluptatum culpa

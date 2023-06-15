@@ -14,6 +14,10 @@ category:
   - Project
   - Project2
 slug: "another-some-project"
+image: "images/about/image-1.jpg"
+goal: "$890"
+raised: "$390"
+type: "causes"
 ---
 
 Adipisicing quae cumque pariatur libero soluta quae sequi? Nobis eum itaque

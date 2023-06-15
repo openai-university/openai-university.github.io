@@ -1,6 +1,6 @@
 ---
 title: "Project1-1"
-date: 2022-08-09T19:54:27+07:00
+date: 2023-04-09T19:54:27+07:00
 draft: false
 seo_description: ""
 seo_keyword:
@@ -14,6 +14,10 @@ category:
   - Project
   - Project1
 slug: "some-project"
+image: "images/about/image-1.jpg"
+goal: "$890"
+raised: "$390"
+type: "causes"
 ---
 
 Elit eveniet atque fugit nulla laboriosam? Vitae voluptatum voluptatum culpa
