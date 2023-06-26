@@ -55,7 +55,7 @@
     $('.frequency').click(function() {
 
       change_button_style('.frequency', this)
-      
+      // $('#form_hidden_values').html($('#monthly_hidden').html())
 
       frequency_currency = $(this).attr('frequence_currency')
       frequency = $(this).attr('frequency')
@@ -66,12 +66,14 @@
         $('#intense').attr('price', amount.monthly.intense)
         $('#donate_btn_type').html('Donate Monthly')
         $('#form_hidden_values').html($('#monthly_hidden').html())
+        $('.number_field').attr('name', 'a3')
       } else {
         $('#awareness').attr('price', amount.once.awareness)
         $('#committed').attr('price', amount.once.committed)
         $('#intense').attr('price', amount.once.intense)
         $('#donate_btn_type').html('Donate Once')
         $('#form_hidden_values').html($('#once_hidden').html())
+        $('.number_field').attr('name', 'amount')
       }
     });
 
@@ -88,9 +90,9 @@
       change_button_style('.donation_level', this)
     });
 
-    $('#donate_btn_type').click(function() {
-      
-    })
+    // $('#donate_btn_type').click(function() {
+    //   $('.donation-form').submit()
+    // })
 
       // $('.amount_cls').click(function() {
       //     value = $(this).attr('price');
@@ -154,7 +156,23 @@
           </div>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="donation-form">
             
-            <div id="form_hidden_values"></div>
+            <div id="form_hidden_values">
+              <!-- Identify your business so that you can bill for payments. -->
+              <input type="hidden" name="business" value="{{ .Params.billing_email }}">
+              <!-- Specify an Automatic Billing button. -->
+              <input type="hidden" name="cmd" value="_xclick-subscriptions">
+              <!-- Specify details about the automatic billing plan. -->
+              <input type="hidden" name="lc" value="US">
+              <input type="hidden" name="no_note" value="1">
+              <input type="hidden" name="no_shipping" value="1">
+              <input type="hidden" name="src" value="1">
+              <input type="hidden" name="p3" value="1">
+              <input type="hidden" name="t3" value="M">
+              <input type="hidden" name="currency_code" value="USD">
+              <!-- Make sure you get the buyer's address during checkout. -->
+              <input type="hidden" name="no_shipping" value="2">
+              <input type="hidden" name="charset" value="utf-8">
+            </div>
 
             <fieldset class="form-group">
               
@@ -195,7 +213,9 @@
 
             <div class="form-group row mt-4">
               <div class="col-sm-10">
-                <a href="confirmation.html" class="btn btn-main-2 rounded" id="donate_btn_type">Donate Monthly</a>
+                <!-- <a href="javascript:;" class="btn btn-main-2 rounded" id="donate_btn_type">Donate Monthly</a> -->
+                <button type="submit" class="btn btn-main-2 rounded" id="donate_btn_type">Donate Monthly</button>
+                <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
               </div>
             </div>
           </form>
