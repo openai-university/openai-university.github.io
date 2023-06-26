@@ -85,7 +85,7 @@ gallery:
 causes:
   enable : true
   subtitle : "Latest Cuases"
-  title : "Our Recent Causes to serve better"
+  title : "More"
   content : "We provide services in the area of IFRS and management reporting, helping companies to reach
             their highest level."
   # causes item comes from "content/event" folder
