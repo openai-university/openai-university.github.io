@@ -53,7 +53,7 @@
     $('#intense').attr('price', amount.monthly.intense)
     
     $('.frequency').click(function() {
-
+      change_button_style('.donation_level', null)
       change_button_style('.frequency', this)
       // $('#form_hidden_values').html($('#monthly_hidden').html())
 
@@ -61,6 +61,7 @@
       frequency = $(this).attr('frequency')
       $('.addition').html(frequency_currency);
       if (frequency === 'monthly') {
+        $('.number_field').val(amount.monthly.awareness)
         $('#awareness').attr('price', amount.monthly.awareness)
         $('#committed').attr('price', amount.monthly.committed)
         $('#intense').attr('price', amount.monthly.intense)
@@ -68,6 +69,7 @@
         $('#form_hidden_values').html($('#monthly_hidden').html())
         $('.number_field').attr('name', 'a3')
       } else {
+        $('.number_field').val(amount.once.awareness)
         $('#awareness').attr('price', amount.once.awareness)
         $('#committed').attr('price', amount.once.committed)
         $('#intense').attr('price', amount.once.intense)
@@ -124,6 +126,7 @@
 
 <section class="section donation">
   <div class="container">
+    
     <div class="row">
       <div class="col-lg-8">
         <div class="donation-wrap">
@@ -220,6 +223,17 @@
             </div>
           </form>
         </div>
+
+        
+
+        <div class="donation-wrap">
+          <div class="form-group">
+            <label class="col-form-label mb-3 h3">Subscription Details</label>
+          </div>
+          {{ partial "register_comparison.html" . }}
+        </div>
+
+        
       </div>
 
       <div class="col-lg-4">
@@ -245,6 +259,9 @@
         </div>
       </div>
     </div>
+
+    
+    
   </div>
 </section>
 {{ end }}

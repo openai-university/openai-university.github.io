@@ -96,7 +96,7 @@ cta:
   title : "We can’t help everyone, but everyone can help someone"
   button:
     enable : true
-    label : "Make a donation"
+    label : "Become a volunteer"
     link : "donation"
 
 ############################# Latest Blog ###############################

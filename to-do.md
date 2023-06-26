@@ -15,8 +15,8 @@ RationalAiUni
 20-6-2023
 ----------------
 
-1. Events combine past and present event and show as in new theme (no need to separate the past and present)
-2. Volunteer page design change is fine (need to intgrate the functionality)
+1. Events combine past and present event and show as in new theme (no need to separate the past and present) - Done
+2. Volunteer page design change is fine (need to intgrate the functionality) - Done
 3. Add the donation table below donation (if theme breaks add it in another new page)
 4. Add a new menu item called Projects -> Add three pages called project1, project2 and project 3
 5. Add a new menu item called Workshops -> Add three pages called workshop1,2,3
@@ -25,9 +25,9 @@ RationalAiUni
 (314, 9th Cross Saraswathipuram Nandini Layout , Bengaluru 560096
 Ground Floor, Karnataka India)
 8. In the "Our Recent Causes to serve better" section of home page -> Change the "Donate Now" to "More"
-9. Remove the words : Goal: $890 Raised: $390 ( from every page that we have )
-10. Change "Make a donation" to "Become a volunteer"
-11. Change the logo from the original site : https://openai.university/ 
+9. Remove the words : Goal: $890 Raised: $390 ( from every page that we have ) - Done
+10. Change "Make a donation" to "Become a volunteer" - Done
+11. Change the logo from the original site : https://openai.university/ - Done
 12. New Domain is rationalai.org
 
 
