@@ -13,11 +13,10 @@ tags:
   - tags4
 category:
   - Workshop
-slug: "another-some-workshop"
 image: "images/about/image-1.jpg"
 goal: "$890"
 raised: "$390"
-type: "causes"
+type: "workshop"
 ---
 
 Adipisicing quae cumque pariatur libero soluta quae sequi? Nobis eum itaque

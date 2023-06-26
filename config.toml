@@ -54,14 +54,9 @@ paginate = 6
   name = "Blog"
   URL = "blog"
   weight = 2
-  
-  [[menu.main]]
-  name = "Causes"
-  URL = "causes"
-  weight = 3
 
   [[menu.main]]
-  weight = 4
+  weight = 3
   name = "Get Involved"
   hasChildren = true
 
@@ -76,54 +71,54 @@ paginate = 6
     URL = "volunteer"
 
   [[menu.main]]
-  weight = 5
+  weight = 4
   name = "Projects"
   hasChildren = true
 
     [[menu.main]]
     parent = "Projects"
     name = "Project 1"
-    URL = "project1"
+    URL = "projects/project1"
 
     [[menu.main]]
     parent = "Projects"
     name = "Project 2"
-    URL = "project2"
+    URL = "projects/project2"
 
     [[menu.main]]
     parent = "Projects"
     name = "Project 3"
-    URL = "project3"
+    URL = "projects/project3"
 
   [[menu.main]]
-  weight = 6
+  weight = 5
   name = "Workshop"
   hasChildren = true
 
     [[menu.main]]
     parent = "Workshop"
     name = "Workshop 1"
-    URL = "workshop1"
+    URL = "workshop/workshop1"
 
     [[menu.main]]
     parent = "Workshop"
     name = "Workshop 2"
-    URL = "workshop2"
+    URL = "workshop/workshop2"
 
     [[menu.main]]
     parent = "Workshop"
     name = "Workshop 3"
-    URL = "workshop3"
+    URL = "workshop/workshop3"
   
   [[menu.main]]
   name = "Event"
   URL = "event"
-  weight = 7
+  weight = 6
     
   [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 8
+  weight = 7
 
   ################# footer menu ##################
 

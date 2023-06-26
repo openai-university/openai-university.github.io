@@ -13,11 +13,10 @@ tags:
 category:
   - Project
   - Project1
-slug: "some-project"
 image: "images/about/image-1.jpg"
 goal: "$890"
 raised: "$390"
-type: "causes"
+type: "projects"
 ---
 
 Elit eveniet atque fugit nulla laboriosam? Vitae voluptatum voluptatum culpa
