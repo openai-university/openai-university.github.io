@@ -18,6 +18,7 @@
             <li class="list-group-item"><strong>Date : </strong> {{ .Params.EventDate }}</li>
             <li class="list-group-item"><strong>Location : </strong> {{ .Params.Location | markdownify }}</li>
             <li class="list-group-item"><strong>Organizer : </strong> {{ .Params.Organizer | markdownify }}</li>
+            <li class="list-group-item"><strong>Price : </strong> {{ .Params.Cost | markdownify }}</li>
           </ul>
           <a href="{{ .Permalink }}" class="btn btn-main-2">Learn More</a>
         </div>

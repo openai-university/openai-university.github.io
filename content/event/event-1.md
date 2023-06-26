@@ -9,6 +9,10 @@ eventDate: "16th september 2019"
 location: "manking park ,USA"
 organizer: "Chariti hub"
 type: "event"
+register_link: "https://www.google.com"
+register_text: "Link text"
+cost: "20$"
+remarks: "This is an event about hugo"
 ---
 
 
