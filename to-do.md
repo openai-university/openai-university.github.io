@@ -15,10 +15,10 @@ RationalAiUni
 20-6-2023
 ----------------
 
-1. Events combine past and present event and show as in new theme (no need to separate the past and present) - Done
+1. Events combine past and present event and show as in new theme (no need to separate the past and present) - Done (Make the button called learn more as Register)
 2. Volunteer page design change is fine (need to intgrate the functionality) - Done
 3. Add the donation table below donation (if theme breaks add it in another new page) - Done
-4. Add a new menu item called Projects -> Add three pages called project1, project2 and project 3
+4. Add a new menu item called Projects -> Add three pages called project1, project2 and project 3 (Donate Now -> Learn More)
 5. Add a new menu item called Workshops -> Add three pages called workshop1,2,3
 6. Merge About and contact into 1 page (and have it as a single column page). About section first and then the contact section. - Done
 7. Below the contact add the map from here https://console.cloud.google.com/google/maps-apis/build/locator-plus?project=tranquil-well-390418
