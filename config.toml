@@ -62,13 +62,13 @@ paginate = 6
 
     [[menu.main]]
     parent = "Get Involved"
-    name = "Donation"
-    URL = "donation"
+    name = "Volunteer"
+    URL = "volunteer"
 
     [[menu.main]]
     parent = "Get Involved"
-    name = "Volunteer"
-    URL = "volunteer"
+    name = "Ask Anything"
+    URL = "ask-anything"
 
   [[menu.main]]
   weight = 4
