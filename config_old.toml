@@ -1,7 +1,7 @@
 ####################
 # hugo
 ####################
-baseURL = "https://openai.university"
+baseURL = "https://rationalai.org"
 theme = "simple_old_theme"
 languageCode = "en-US"
 defaultContentLanguage = "en"

@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://example.org/"
+baseURL = "https://rationalai.org/"
 languageCode = "en-us"
 title = "WishFund hugo | Nonprofit Charity Funderising Theme"
 theme = "wishfund-hugo"
@@ -209,19 +209,19 @@ googleAnalitycsID = "Your ID"
 [[params.postShare]]
 icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
 name = "facebook"
-link = "#"
+link = "https://www.facebook.com/sharer/sharer.php?u=https://rationalai.org/"
 
 [[params.postShare]]
 icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
 name = "twitter"
-link = "#"
+link = "http://twitter.com/share?text=Volunteer Text&url=https://rationalai.org/"
 
 [[params.postShare]]
 icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
 name = "linkedin"
-link = "#"
+link = "https://www.linkedin.com/sharing/share-offsite/?url=https://rationalai.org/"
 
 [[params.postShare]]
 icon = "ti-pinterest" # themify icon pack https://themify.me/themify-icons
 name = "pinterest"
-link = "#"
+link = "http://www.pinterest.com/pin/create/button/?url=https://rationalai.org/&description=RationalAI"
