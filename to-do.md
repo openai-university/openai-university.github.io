@@ -27,7 +27,7 @@ Ground Floor, Karnataka India) - Done
 8. In the "Our Recent Causes to serve better" section of home page -> Change the "Donate Now" to "More" - Done
 9. Remove the words : Goal: $890 Raised: $390 ( from every page that we have ) - Done
 10. Change "Make a donation" to "Become a volunteer" - Done
-11. Change the logo from the original site : https://openai.university/ - Done
+11. Change the logo from the original site : https://rationalai.org/ - Done
 12. New Domain is rationalai.org
 
 

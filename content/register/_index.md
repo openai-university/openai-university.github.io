@@ -16,7 +16,7 @@ tags:
 category:
   - Register
 donate_text: "OpenAI University Donations"
-billing_email: "openai.university@gmail.com"
+billing_email: "rationalai.org@gmail.com"
 ---
 
 
